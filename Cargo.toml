@@ -1,0 +1,16 @@
+[package]
+name = "gatekeeper-py"
+version = "0.1.0"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "gatekeeper_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+gatekeeper-core = "0.2.1"
+gatekeeper-members = "0.4.1"
+pyo3 = "0.27.0"
+pythonize = "0.27.0"
+serde_json = "1.0.149"
