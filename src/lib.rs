@@ -184,17 +184,12 @@ impl Reader {
 /// A Python module implemented in Rust.
 #[pymodule]
 mod gatekeeper_py {
-    use pyo3::prelude::*;
-
     #[pymodule_export]
     use super::Reader;
-
     #[pymodule_export]
     use super::RealmType;
-
-    #[pymodule_export]
-    use super::TagType;
-
     #[pymodule_export]
     use super::Tag;
+    #[pymodule_export]
+    use super::TagType;
 }
