@@ -188,4 +188,13 @@ mod gatekeeper_py {
 
     #[pymodule_export]
     use super::Reader;
+
+    #[pymodule_export]
+    use super::RealmType;
+
+    #[pymodule_export]
+    use super::TagType;
+
+    #[pymodule_export]
+    use super::Tag;
 }
