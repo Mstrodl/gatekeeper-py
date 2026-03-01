@@ -1,5 +1,9 @@
 [package]
 name = "gatekeeper-py"
+description = "Python bindings to gatekeeper-members"
+repository = "https://github.com/Mstrodl/gatekeeper-py"
+homepage = "https://github.com/Mstrodl/gatekeeper-py"
+license = "MIT"
 version = "0.1.0"
 edition = "2024"
 

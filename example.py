@@ -8,7 +8,7 @@ while True:
     print("OMG!!! TAG!!!")
     print("Tag: " + str(tag.get_tag_type()))
     try:
-      aid = tag.get_user()
+      aid = tag.get_association()
     except Exception as e:
       print("oops: " + str(e))
       continue

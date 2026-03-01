@@ -23,7 +23,7 @@ impl Tag {
         self.tag_type
     }
 
-    fn get_user(&self) -> PyResult<String> {
+    fn get_association(&self) -> PyResult<String> {
         let (tx, rx) = mpsc::sync_channel(0);
         self.submit_scan_request
             .send(tx)
